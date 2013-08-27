@@ -8,8 +8,6 @@
     	Spaceview.starSize = 1
 
     	var ctx_
-    	, width_
-    	, height_
     	, center_ = []
     	, stars_ = []
 
@@ -17,8 +15,6 @@
             var canvas = document.getElementById(canvasId)
             if (canvas) {
                 ctx_    = canvas.getContext('2d')
-                width_  = canvas.width
-                height_ = canvas.height
                 center_['x'] = canvas.width/2
                 center_['y'] = canvas.height/2
 
